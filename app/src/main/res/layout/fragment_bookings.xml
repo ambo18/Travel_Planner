@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFF">
+
+        <EditText
+            android:id="@+id/bookingIdEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Booking ID"
+            android:textColorHint="#000"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/dateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date"
+            android:textColorHint="#000"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/timeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Time"
+            android:textColorHint="#000"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/customerNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Customer Name"
+            android:textColorHint="#000"
+            android:textColor="#000"/>
+
+        <Button
+            android:id="@+id/makeBookingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Make Booking"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/retrieveBookingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Retrieve Booking"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/deleteBookingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Booking"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+</LinearLayout>

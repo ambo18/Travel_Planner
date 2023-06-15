@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TravelPlanner"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.travelplanner.BookingDetailsActivity"
+            android:label="Booking Details">
+        </activity>
+
+        <activity
+            android:name=".ItineraryCreationActivity"
+            android:label="Itinerary Items">
+        </activity>
+
+        <activity
+            android:name=".place_1">
+        </activity>
+
+        <activity
+            android:name=".place_2">
+        </activity>
+
+        <activity
+            android:name=".place_3">
+        </activity>
+
+        <activity
+            android:name=".place_4">
+        </activity>
+
+        <activity
+            android:name=".place_5">
+        </activity>
+
+        <activity
+            android:name=".place_6">
+        </activity>
+
+        <activity
+            android:name=".place_7">
+        </activity>
+
+        <activity
+            android:name=".place_8">
+        </activity>
+
+        <activity
+            android:name=".place_9">
+        </activity>
+
+        <activity
+            android:name=".place_10">
+        </activity>
+
+        <activity
+            android:name=".item_1">
+        </activity>
+
+        <activity
+            android:name=".item_2">
+        </activity>
+
+        <activity
+            android:name=".item_3">
+        </activity>
+
+        <activity
+            android:name=".item_4">
+        </activity>
+
+        <activity
+            android:name=".item_5">
+        </activity>
+
+        <activity
+            android:name=".item_6">
+        </activity>
+
+        <activity
+            android:name=".item_7">
+        </activity>
+
+        <activity
+            android:name=".item_8">
+        </activity>
+
+        <activity
+            android:name=".item_9">
+        </activity>
+
+        <activity
+            android:name=".item_10">
+        </activity>
+
+        <activity
+            android:name=".item_11">
+        </activity>
+
+        <activity
+            android:name=".item_12">
+        </activity>
+
+        <activity
+            android:name=".item_13">
+        </activity>
+
+        <activity
+            android:name=".item_14">
+        </activity>
+
+        <activity
+            android:name=".item_15">
+        </activity>
+
+        <activity
+            android:name=".item_16">
+        </activity>
+
+        <activity
+            android:name=".item_17">
+        </activity>
+
+        <activity
+            android:name=".item_18">
+        </activity>
+
+        <activity
+            android:name=".item_19">
+        </activity>
+
+        <activity
+            android:name=".item_20">
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_destinations"
+        android:icon="@drawable/ic_destinations"
+        android:title="Destinations" />
+
+    <item
+        android:id="@+id/menu_itinerary"
+        android:icon="@drawable/ic_itinerary"
+        android:title="Itinerary" />
+
+    <item
+        android:id="@+id/menu_bookings"
+        android:icon="@drawable/ic_bookings"
+        android:title="Bookings" />
+
+    <item
+        android:id="@+id/menu_tips"
+        android:icon="@drawable/ic_tips"
+        android:title="Travel Tips" />
+
+    <!-- Add more menu items for other features -->
+
+</menu>

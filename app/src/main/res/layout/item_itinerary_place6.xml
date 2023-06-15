@@ -1,0 +1,39 @@
+<!-- item_itinerary_place2.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnItem1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="item 1"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:onClick="item_1"/>
+
+        <Button
+            android:id="@+id/btnItem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="item 2"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:onClick="item_2"/>
+
+    </LinearLayout>
+
+</LinearLayout>
